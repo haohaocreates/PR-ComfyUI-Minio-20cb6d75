@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-minio"
+description = "This plugin is mainly based on Minio, implementing the ability to read images from Minio, save images, facilitating expansion and connection across multiple machines."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["minio"]
+
+[project.urls]
+Repository = "https://github.com/prodogape/ComfyUI-Minio"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Minio"
+Icon = ""
